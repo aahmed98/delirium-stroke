@@ -761,6 +761,6 @@ def full_preprocess(data_path, output_path, include_actigraph=True,
 #######################
 
 if __name__ == "__main__":
-    path = "/data/stroke_data/"
+    path = "data/stroke_data/"
     full_preprocess(path, "data/test.csv", include_actigraph=False)
 
